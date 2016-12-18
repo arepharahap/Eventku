@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.myapplication.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/gambar1"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dc86241f"
+        android:gravity="center"
+        android:text="Picture Mobil Modification "
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="000"
+        android:gravity="center"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+
+        />
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Hello! Muhammad Arif Al Aziz Harahap"-->
+    <!--android:background="#ef8cff7f"-->
+    <!--/>-->
+
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:text="Hello! Muhammad Arif Al Aziz Harahap"-->
+    <!--android:background="#ef679aff"-->
+    <!--/>-->
+
+</LinearLayout>
